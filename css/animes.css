@@ -1,0 +1,26 @@
+@charset "UTF-8";
+ul#abc{
+    list-style: none;
+    
+}
+ul#abc li{
+    display: inline-block;
+    padding: 10px;
+    border-right: black solid 1px;
+    border-bottom:  black solid 1px;
+    border-top: black solid 1px;
+    margin: -2px;
+    background-color: rgba(47, 100, 245, 0.8);
+
+}
+ul#abc li#unico{
+    display: inline-block;
+    padding: 10px;
+    border-left: black solid 1px;
+    margin-top: 20px;
+    
+}
+ul#abc li:hover{
+background-color:rgba(4, 34, 117, 0.8);
+}
+

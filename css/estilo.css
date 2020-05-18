@@ -8,56 +8,69 @@ body{
     background-image: url(../fotos/background.jpg);
 }
 h1#titulo{
-    text-align: center;
     font-family: fontelogo sans-serif;
     font-size: 40pt;
    margin-top: 30px;
    margin-bottom: -20px;
     padding: 0px;
+    text-align: center;
 }
 h2{
-    text-align: center;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 p{
     margin-top: 30px;
-    text-indent: 10px;
-    text-align: left;
+    text-indent: 50px;
     font-size: 15pt;
     font-family: sans-serif arial;
+    text-align: right;
+}
+p#rodape{
+    font-size: 12pt;
+    text-align: left;
 }
 div#d1{
     width: 1000px;
     margin: -30px auto 0px auto;
     box-shadow: 0px 0px 10px black;
     padding: 10px 10px 10px 10px;
-    background-color: rgba(149, 174, 243, .8)
+    background-color: rgba(149, 174, 243, .8);
+    position: absolute;
+    left: 200px;
+    top: -5px;
+    
 }
-ul#menu{
+nav#navegacao ul#menu{
     list-style: none;
+}
+nav#navegacao ul#menu li{
     text-transform: uppercase;
-    float: left;
-}
-li{
-    padding: 60px;
-    border-right: solid black 1px;
-    border-bottom: solid black 1px;
-    border-left: solid black 1px;
-    background-color: rgba(39, 59, 240, 0.8);
+    background-color: rgba(18, 33, 235, 0.8) ;
+    padding: 40px;
+    width: 100px;
     position: relative;
-    left: -280px;
-    top: -10px;
-    margin: 0px;
+    left: -40px;
+    top: -20px;
+    border-right: black solid 2px;
+    border-bottom: black solid 1px;
+    border-left: black solid 2px;
+    border-top: black solid 1px;
 }
-li:hover{
-    background-color: rgba(10, 34, 248, 0.8);
+nav#navegacao ul#menu li:hover{
+    background-color:rgba(54, 96, 214, 0.8) ;
+}
+a#redesocial{
+    color: white;
 }
 a{
     color: black;
-    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
     color: white;
+}
+footer{
+    border-top: solid black 1px;
 }
