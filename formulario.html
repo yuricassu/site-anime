@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>animax</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
     <nav id="navegacao">
@@ -16,12 +17,68 @@
             </ul>
            </nav>
     <div id="d1">
-       
+       <header>
             <h1 id="titulo">animax</h1>
         <h2>(animes e mangas online)</h2>
-            <footer>
+    </header>
+        <form action="mailto:vcassu@gmail.com" method="POST" id="contato">
+        <fieldset id="usuario">
+            <legend>fale conosco</legend>
+            <p><label for="nome" id="l1">nome:</label><input type="text" size="20" maxlength="30" placeholder="nome completo" id="nome">
+            </p>
+
+            <p><label for="email" id="l1">email:</label><input type="email" size="20" maxlength="40" placeholder="seu email" id="email">
+            </p>
+            <fieldset id="sexo"><legend> Sexo:</legend>
+              <p> <input type="radio" name="tsexo" id="masc" checked>  <label for="masc" id="l2"> Masculino </label><br>
+                <input type="radio" name="tsexo" id="fem"> <label for="fem" id="l2"> Feminino</label></p> </fieldset>
+                <p><label for="cdata" id="l3"> Data de Nascimento:</label> <input type="date" id="cdata"></p>
+
+        </fieldset>
+
+        <fieldset id="endereco"> 
+            <legend> Endereço do Usuário</legend>
+            <p><label for="crua" id="l4"> Logradouro:</label> <input type="text" size="20" maxlength="40" placeholder="rua, av, travessa ..." id="crua"></p>
+            <p><label for="cnum" id="l5"> Número:</label> <input type="number" min="0" max="99999" placeholder="num casa" id="cnum" ></p>
+            
+            <p><label for="cest" id="l6"> Estado:</label> <select name="test" id="cest">
+        
+               <optgroup label="sudeste"> <option value="" selected> sp</option>
+        <option value=""> rj</option>
+        <option value=""> mg</option>
+        </optgroup>
+        <optgroup label="sul">
+        <option value=""> pr</option>
+        <option value="">sc</option>
+        <option value="">rs</option>
+        </optgroup>
+            </select></p>
+            
+            <p><label for="ccid" id="l7"> Cidade:</label> <input type="text" size="20" maxlength="20" placeholder="sua cidade" list="cidades" id="ccid"></p>
+            <datalist id="cidades">
+        <option value="sorocaba"></option>
+        <option value="votorantim"></option>
+        <option value="salto de pirapora"></option>
+        <option value="salto de itu"></option>
+            </datalist>
+        </fieldset>
+
+        <fieldset id="mensagem"> 
+            <legend> Mensagem do Usuário</legend>
+               <p><label for="cmsg" id="l8"> Mensagem:</label> <textarea name="" id="cmsg" cols="45" rows="10" placeholder="pedido de anime/manga, menssagem ou proposta."></textarea></p>
+       </fieldset>
+       <input type="image" src="fotos/botao-enviar.png" id="botao">
+    </form>
+        
+        
+        
+        
+        
+        <footer>
                 <p id="rodape">&copy copyright by yuri cassu <br>
             <a id="redesocial" href="https://www.facebook.com/yuri.cassu" target="blank"> facebook</a> - <a id="redesocial" href="https://github.com/yuricassu" target="blank"> github</a>
              </p>
              </footer>
+    </div>
+</body>
      

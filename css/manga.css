@@ -1,4 +1,8 @@
 @charset "UTF-8";
+h1#t2{
+    text-align: center;
+    text-transform: uppercase;
+}
 ul#abc{
     list-style: none;
     

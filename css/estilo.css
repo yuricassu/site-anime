@@ -14,6 +14,7 @@ h1#titulo{
    margin-bottom: -20px;
     padding: 0px;
     text-align: center;
+    text-transform: uppercase;
 }
 h2{
     margin: 0px;
@@ -70,6 +71,9 @@ a{
 a:hover{
     text-decoration: underline;
     color: white;
+}
+header{
+    border-bottom: black solid 1px;
 }
 footer{
     border-top: solid black 1px;

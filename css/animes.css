@@ -31,3 +31,7 @@ iframe#iframe{
 iframe::-webkit-scrollbar{
     display: none;
 }
+h1#t1{
+    text-align: center;
+    text-transform: uppercase;
+}
