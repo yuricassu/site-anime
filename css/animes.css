@@ -25,7 +25,7 @@ background-color:rgba(4, 34, 117, 0.8);
 }
 iframe#iframe{
     width: 1000px;
-    height: 600px;
+    height: 900px;
     border: none;
 }
 iframe::-webkit-scrollbar{
