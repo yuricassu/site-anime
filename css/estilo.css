@@ -45,6 +45,7 @@ div#d1{
 }
 nav#navegacao ul#menu{
     list-style: none;
+    cursor: pointer;
 }
 nav#navegacao ul#menu li{
     text-transform: uppercase;
@@ -58,6 +59,9 @@ nav#navegacao ul#menu li{
     border-bottom: black solid 1px;
     border-left: black solid 2px;
     border-top: black solid 1px;
+}
+nav#navegacao ul#menu li a{
+    
 }
 nav#navegacao ul#menu li:hover{
     background-color:rgba(54, 96, 214, 0.8) ;
@@ -78,3 +82,28 @@ header{
 footer{
     border-top: solid black 1px;
 }
+nav#navegacao ul#menu ul{
+    position: absolute;
+    visibility: hidden;
+    left: 180px;
+    top: 20px;
+    z-index: 1;
+   
+}
+nav#navegacao ul#menu li:hover ul{
+    visibility: visible;
+    }
+    nav#navegacao ul#menu ul{
+        float: none;
+        list-style: none;
+    }
+    nav#navegacao ul#menu ul li.n {
+        background-color: rgba(6, 8, 128, .9);   
+    }
+    nav#navegacao ul#menu ul li.n:hover {
+        background-color: rgba(10, 83, 88, .9);   
+    }
+    nav#navegacao ul#menu ul li.n a {
+        color: white;
+    }
+    
