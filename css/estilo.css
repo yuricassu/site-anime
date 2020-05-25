@@ -60,9 +60,6 @@ nav#navegacao ul#menu li{
     border-left: black solid 2px;
     border-top: black solid 1px;
 }
-nav#navegacao ul#menu li a{
-    
-}
 nav#navegacao ul#menu li:hover{
     background-color:rgba(54, 96, 214, 0.8) ;
 }
