@@ -15,19 +15,23 @@ h1#titulo{
     padding: 0px;
     text-align: center;
     text-transform: uppercase;
+    color: rgb(26, 26, 172);
 }
 h2{
     margin: 0px;
     padding: 0px;
     text-align: center;
+    color: rgb(26, 26, 172);
 }
 p{
     margin-top: 30px;
+    padding-top: 10px;
     text-indent: 50px;
     font-size: 15pt;
     font-family: sans-serif arial;
     text-align: right;
 }
+
 p#rodape{
     font-size: 12pt;
     text-align: left;

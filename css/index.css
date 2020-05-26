@@ -1,6 +1,18 @@
 @charset "UTF-8";
-p{
-    border-bottom: solid 1px black;
+p#texto{
+    border-bottom: solid 2px black;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-indent: 50px;
+    font-size: 15pt;
+    font-family: sans-serif arial;
+    text-align: center;
+}
+div#resumo{
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  background-color: rgba(8, 42, 189, 0.8);
 }
   nav#pagina-inicial ul#episodios li{
     display: inline-block;
