@@ -34,4 +34,5 @@ iframe::-webkit-scrollbar{
 h1#t1{
     text-align: center;
     text-transform: uppercase;
+    border-bottom: solid 1px black;
 }

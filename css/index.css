@@ -1,0 +1,165 @@
+@charset "UTF-8";
+p{
+    border-bottom: solid 1px black;
+}
+  nav#pagina-inicial ul#episodios li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+figcaption{
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+}
+figcaption:hover{
+opacity: 1;}
+li#um{
+    background: url("../fotos/Kakushigoto.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dois{
+    background: url("../fotos/anotherword.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#tres{
+    background: url("../fotos/BNA.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#quatro{
+    background: url("../fotos/Cop-Craft.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#cinco{
+    background: url("../fotos/digimon.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#seis{
+    background: url("../fotos/Da\ Wang\ Bu\ Gao\ Xing.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#sete{
+    background: url("../fotos/Enen\ no\ Shouboutai.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#oito{
+    background: url("../fotos/Fugou\ Keiji\ \ Balance\ Unlimited.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#nove{
+    background: url("../fotos/Genshiken.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dez{
+    background: url("../fotos/Hachi-nan\ tte\ Sore\ wa\ Nai\ deshou.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#onze{
+    background: url("../fotos/Idolish\ Seven.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#doze{
+    background: url("../fotos/JoJo\ No\ Kimyou\ \(1993\).jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#treze{
+    background: url("../fotos/Kyou\ no\ Asuka\ Show.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#quatorze{
+    background: url("../fotos/Kitsutsuki\ Tantei-Dokoro.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#quinze{
+    background: url("../fotos/Nami\ yo\ Kiitekure.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dezeseis{
+    background: url("../fotos/Pumpkin\ Scissors.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dezesete{
+    background: url("../fotos/Quanzhi\ Fashi.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dezoito{
+    background: url("../fotos/Shadowverse.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#dezenove{
+    background: url("../fotos/Shironeko\ Project\ Zero\ Chronicle.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+  li#vinte{
+    background: url("../fotos/Pet.jpg");
+      width: 150px;
+      height: 190px;
+      background-size: 150px 190px;
+      border: black solid 2px;
+  }
+
+  nav#pagina-inicial ul#episodios li a{
+      position: relative;
+      top: 190px;
+      text-align: center;
+  }
