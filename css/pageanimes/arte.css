@@ -9,6 +9,7 @@ li#arte{
     background-size: 200px 250px;
     list-style: none;
     border: black solid 2px;
+    border-radius: 10px;
 }
 figcaption{
     background-color: rgba(0, 0, 0, .4);

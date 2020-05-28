@@ -2,8 +2,8 @@
 li{
     list-style: none;
 }
-li#a{
-    background: url("../../fotos/.jpg");
+li#Da-Wang-Bu-Gao-Xing{
+    background: url("../../fotos/Da\ Wang\ Bu\ Gao\ Xing.jpg");
     width: 200px;
     height: 250px;
     background-size: 200px 250px;
@@ -24,7 +24,7 @@ p#sinopse{
     position: relative;
     top: -250px;
     text-align: right;
-    margin-left: 240px;
+    margin-left: 243px;
     margin-bottom: -100px;
 }
 ul#episodios{
